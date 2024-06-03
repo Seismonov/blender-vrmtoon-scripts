@@ -3,8 +3,8 @@ Collection of scripts to automate converting materials in Blender into VRM's MTo
 
 ### Requirements :
 Install these addons to your Blender (Tested on Blender 3.6LTS)
-[VRM-Addon-For-Blender](https://vrm-addon-for-blender.info/en/material-mtoon/)
-[mmd-tools](https://github.com/UuuNyaa/blender_mmd_tools) (Only for script-vrmtoon_from_mmdshader.py)
+   1. [VRM-Addon-For-Blender](https://vrm-addon-for-blender.info/en/material-mtoon/)
+   2. [mmd-tools](https://github.com/UuuNyaa/blender_mmd_tools) (Only for script-vrmtoon_from_mmdshader.py)
 
 ### How to use :
    1. Launch Blender
