@@ -33,10 +33,8 @@ Install these addons to your Blender (Tested on Blender 3.6LTS)
       1. Navigate to one of your model's material's VRM MToon tab (have to scroll down quite a bit)
       2. See the **Lighting** tab, there should be two color parameters; **Lit Color** and **Shade Color**.
       3. Set both of them to the color you want, preferably use material on part that is nicely visible so you can see how the color looks.
-      4. Copy the value (Ctrl + C on the color) on **Lit Color** and replace **base_color_factor** value in the script to it.
-(Example : ```base_color_factor = [0.000000, 1.000000, 0.975493, 1.000000]```
-      5. Copy the value (Ctrl + C on the color) on **Shade Color** and replace **shade_color_factor** value in the script to it, delete the right-most value inside the bracket.
-(Example : ```shade_color_factor = [0.200718, 0.045194, 0.500000, ]```
+      4. Copy the value (Ctrl + C on the color) on **Lit Color** and replace **base_color_factor** value in the script to it. (Example : ```base_color_factor = [0.000000, 1.000000, 0.975493, 1.000000]```
+      5. Copy the value (Ctrl + C on the color) on **Shade Color** and replace **shade_color_factor** value in the script to it, delete the right-most value inside the bracket. (Example : ```shade_color_factor = [0.200718, 0.045194, 0.500000, ]```
       6. Run the script, and wait until finish
      
    12. **script-vrmtoon_reenabler.py** (to re-enable VRMToon MToon shader when you copy a saved model from another Blender project to a scene that already have a model that uses VRMtoon MToon shader too
